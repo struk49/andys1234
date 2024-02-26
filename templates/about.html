@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>About Page</h2>
+
+
+    <h2>{{ page_title }}</h2>
     <p>
         The Avengers are a team of superheroes appearing in American comic books published by Marvel Comics, created by
         writer-editor Stan Lee and artist/co-plotter Jack Kirby. The team made its debut in The Avengers #1 (cover-dated
@@ -25,41 +27,21 @@
         The Avengers have appeared in a wide variety of media outside of comic books, including several different animated television series and direct-to-video films. Beginning in 2008, they were adapted in a film series from Marvel Studios, known as the Marvel Cinematic Universe, culminating with The Avengers in 2012, with more appearances of the team in subsequent films.
     </p>
 
+    {% for member in company %}
     <div class="row featurette">
         <div class="col-md-7">
-            <h3>Captain America</h3>
-            <p>
-                Captain America is a superhero created by Joe Simon and Jack Kirby who appears in American comic books published by
-                Marvel Comics. The character first appeared in Captain America Comics #1, published on December 20, 1940, by Timely
-                Comics, a corporate predecessor to Marvel. Captain America's civilian identity is Steve Rogers, a frail man enhanced
-                to the peak of human physical perfection by an experimental "super-soldier serum" after joining the United States
-                Army to aid the country's efforts in World War II. Equipped with an American flag-inspired costume and a virtually
-                indestructible shield, Captain America and his sidekick Bucky Barnes clashed frequently with the villainous Red
-                Skull and other members of the Axis powers. In the final days of the war, an accident left Captain America frozen in
-                a state of suspended animation until he was revived in modern times. He resumes his exploits as a costumed hero and
-                becomes leader of the superhero team the Avengers, but frequently struggles as a "man out of time" to adjust to the
-                new era.
-            </p>
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.description }}</p>
         </div>
         <div class="col-md-5">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/CapShield05.jpg" alt=""> 
+            <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
         </div>
     </div>
 
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsXE2-lCDPMpoS7bDzZxIMDE6Fga5-7SP9b6HhmZlOYnzYl_0s6KwZB0B1RMyeBCDqS0g&usqp=CAU" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Spider Man</h3>
-            <p>
-                Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 in the Silver Age of Comic Books. Wikipedia
-                Children: Normie Osborn, Harry Osborn, Spider-Girl, Peni Parker
-                Creators: Stan Lee, Steve Ditko
-                Romantically involved with: Gwen Stacy, Mary Jane Watson, MORE
-                Appears In Books: Spider-Man: One More Day
-                Fictional universes: Marvel's, Marvel Universe 
-            </p>
-        </div>
-    </div>
+    <hr class="featurette-divider">
+    {% endfor %}
+
+    
+
+    
 {% endblock %}
