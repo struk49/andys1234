@@ -2,26 +2,31 @@
     {
         "name": "Captain America",
         "description": "Steve RogersCaptain America. Recipient of the Super Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world's mightiest heroes and the leader of the Avengers.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/commons/d/dc/CapShield05.jpg"
+        "image_source": "https://upload.wikimedia.org/wikipedia/commons/d/dc/CapShield05.jpg",
+        "url": "captain"
     },
     {
         "name": "Spiderman",
         "description": "In Spider-Man's first story, in Marvel Comics' Amazing Fantasy, no. 15 (1962), American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility along with the ability to cling to walls.",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsXE2-lCDPMpoS7bDzZxIMDE6Fga5-7SP9b6HhmZlOYnzYl_0s6KwZB0B1RMyeBCDqS0g&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsXE2-lCDPMpoS7bDzZxIMDE6Fga5-7SP9b6HhmZlOYnzYl_0s6KwZB0B1RMyeBCDqS0g&usqp=CAU",
+        "url": "spidey"
     },
     {
         "name": "Iron Man",
         "description": "Iron Man is a superhero appearing in American comic books published by Marvel Comics. Co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck",
-        "image_source":"https://m.media-amazon.com/images/I/61w8iMIL8YL._AC_UF894,1000_QL80_.jpg"
+        "image_source":"https://m.media-amazon.com/images/I/61w8iMIL8YL._AC_UF894,1000_QL80_.jpg",
+        "url": "iron-man"
     },
     {
         "name": "Hulk",
         "description": "Bruce Banner lives a life caught between the soft-spoken scientist he's always been and the uncontrollable green monster powered by his rage. Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk.",
-        "image_source":"https://i.etsystatic.com/48479382/r/il/6c4265/5608247890/il_794xN.5608247890_421w.jpg"
+        "image_source":"https://i.etsystatic.com/48479382/r/il/6c4265/5608247890/il_794xN.5608247890_421w.jpg",
+        "url": "hulk"
     },
     {
         "name": "Thor",
         "description": "Thor (from Old Norse: Þórr) is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with lightning, thunder, storms, sacred groves and trees, strength, the protection of humankind, hallowing, and fertility.",
-        "image_source":"https://m.media-amazon.com/images/I/81ec9J+H0XL._AC_UF894,1000_QL80_.jpg"
+        "image_source":"https://m.media-amazon.com/images/I/81ec9J+H0XL._AC_UF894,1000_QL80_.jpg",
+        "url": "thor"
     }
 ]
